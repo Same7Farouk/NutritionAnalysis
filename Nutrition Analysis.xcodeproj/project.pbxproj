@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190EA152D6D0DC424E4E3D22 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D661DC4B921B086BAF1E927 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework */; };
+		59FC7DD4862BDC343C9CCB3A /* Pods_Nutrition_AnalysisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9AF1A6EEF1EA18303ACB92 /* Pods_Nutrition_AnalysisTests.framework */; };
 		76A72EC02771F750000A894B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EBF2771F750000A894B /* AppDelegate.swift */; };
 		76A72EC22771F750000A894B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EC12771F750000A894B /* SceneDelegate.swift */; };
 		76A72EC42771F750000A894B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EC32771F750000A894B /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		76A72ED72771F752000A894B /* Nutrition_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72ED62771F752000A894B /* Nutrition_AnalysisTests.swift */; };
 		76A72EE12771F752000A894B /* Nutrition_AnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EE02771F752000A894B /* Nutrition_AnalysisUITests.swift */; };
 		76A72EE32771F752000A894B /* Nutrition_AnalysisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EE22771F752000A894B /* Nutrition_AnalysisUITestsLaunchTests.swift */; };
+		ED47ADB0C8D97091ED50E16B /* Pods_Nutrition_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861662B4A4D0B044579164E3 /* Pods_Nutrition_Analysis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11FA22FEB663845633E1B91D /* Pods-Nutrition AnalysisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition AnalysisTests.release.xcconfig"; path = "Target Support Files/Pods-Nutrition AnalysisTests/Pods-Nutrition AnalysisTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D661DC4B921B086BAF1E927 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601A2AA4B4BE45E5B6B19D31 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		683D0841A87C03FE505244D8 /* Pods-Nutrition AnalysisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition AnalysisTests.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition AnalysisTests/Pods-Nutrition AnalysisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76A72EBC2771F750000A894B /* Nutrition Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutrition Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A72EBF2771F750000A894B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A72EC12771F750000A894B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		76A72EDC2771F752000A894B /* Nutrition AnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nutrition AnalysisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A72EE02771F752000A894B /* Nutrition_AnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition_AnalysisUITests.swift; sourceTree = "<group>"; };
 		76A72EE22771F752000A894B /* Nutrition_AnalysisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition_AnalysisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		861662B4A4D0B044579164E3 /* Pods_Nutrition_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A360DC21BF160081C3821E /* Pods-Nutrition Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		CC9AF1A6EEF1EA18303ACB92 /* Pods_Nutrition_AnalysisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_AnalysisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C283B9D6BC62B9AE926647 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis-Nutrition AnalysisUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F43B82CCA693C1AFB6909789 /* Pods-Nutrition Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED47ADB0C8D97091ED50E16B /* Pods_Nutrition_Analysis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FC7DD4862BDC343C9CCB3A /* Pods_Nutrition_AnalysisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190EA152D6D0DC424E4E3D22 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				76A72ED52771F752000A894B /* Nutrition AnalysisTests */,
 				76A72EDF2771F752000A894B /* Nutrition AnalysisUITests */,
 				76A72EBD2771F750000A894B /* Products */,
+				B942B69F264B25BA27212B08 /* Pods */,
+				E480A300F728D613EC5F65B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = "Nutrition AnalysisUITests";
 			sourceTree = "<group>";
 		};
+		B942B69F264B25BA27212B08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F43B82CCA693C1AFB6909789 /* Pods-Nutrition Analysis.debug.xcconfig */,
+				86A360DC21BF160081C3821E /* Pods-Nutrition Analysis.release.xcconfig */,
+				F3C283B9D6BC62B9AE926647 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.debug.xcconfig */,
+				601A2AA4B4BE45E5B6B19D31 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig */,
+				683D0841A87C03FE505244D8 /* Pods-Nutrition AnalysisTests.debug.xcconfig */,
+				11FA22FEB663845633E1B91D /* Pods-Nutrition AnalysisTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E480A300F728D613EC5F65B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861662B4A4D0B044579164E3 /* Pods_Nutrition_Analysis.framework */,
+				5D661DC4B921B086BAF1E927 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework */,
+				CC9AF1A6EEF1EA18303ACB92 /* Pods_Nutrition_AnalysisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A72EE62771F752000A894B /* Build configuration list for PBXNativeTarget "Nutrition Analysis" */;
 			buildPhases = (
+				5F47428C0BD69EE19233578B /* [CP] Check Pods Manifest.lock */,
 				76A72EB82771F750000A894B /* Sources */,
 				76A72EB92771F750000A894B /* Frameworks */,
 				76A72EBA2771F750000A894B /* Resources */,
+				742976D7029B0474BCCF0338 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A72EE92771F752000A894B /* Build configuration list for PBXNativeTarget "Nutrition AnalysisTests" */;
 			buildPhases = (
+				762C301F1FB836F621158481 /* [CP] Check Pods Manifest.lock */,
 				76A72ECE2771F752000A894B /* Sources */,
 				76A72ECF2771F752000A894B /* Frameworks */,
 				76A72ED02771F752000A894B /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76A72EEC2771F752000A894B /* Build configuration list for PBXNativeTarget "Nutrition AnalysisUITests" */;
 			buildPhases = (
+				664B0D153E7FA38626AFFA2E /* [CP] Check Pods Manifest.lock */,
 				76A72ED82771F752000A894B /* Sources */,
 				76A72ED92771F752000A894B /* Frameworks */,
 				76A72EDA2771F752000A894B /* Resources */,
+				6B7F93D5F73D37280278BC89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F47428C0BD69EE19233578B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition Analysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		664B0D153E7FA38626AFFA2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition Analysis-Nutrition AnalysisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7F93D5F73D37280278BC89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		742976D7029B0474BCCF0338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762C301F1FB836F621158481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition AnalysisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76A72EB82771F750000A894B /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		76A72EE72771F752000A894B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43B82CCA693C1AFB6909789 /* Pods-Nutrition Analysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +611,7 @@
 		};
 		76A72EE82771F752000A894B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A360DC21BF160081C3821E /* Pods-Nutrition Analysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		76A72EEA2771F752000A894B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683D0841A87C03FE505244D8 /* Pods-Nutrition AnalysisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +664,7 @@
 		};
 		76A72EEB2771F752000A894B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FA22FEB663845633E1B91D /* Pods-Nutrition AnalysisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +689,7 @@
 		};
 		76A72EED2771F752000A894B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C283B9D6BC62B9AE926647 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +712,7 @@
 		};
 		76A72EEE2771F752000A894B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601A2AA4B4BE45E5B6B19D31 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
