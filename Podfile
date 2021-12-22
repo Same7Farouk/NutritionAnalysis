@@ -4,18 +4,19 @@
 target 'Nutrition Analysis' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for Nutrition Analysis
-pod 'RxSwift'
-pod 'RxCocoa'
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Moya'
+  
   target 'Nutrition AnalysisTests' do
     inherit! :search_paths
     # Pods for testing
   end
-
+  
   target 'Nutrition AnalysisUITests' do
     # Pods for testing
   end
-
+  
 end
