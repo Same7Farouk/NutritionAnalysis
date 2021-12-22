@@ -9,7 +9,6 @@ import Moya
 import Foundation
 import UIKit
 import Alamofire
-typealias MoyaMethod = Moya.Method
 
 enum NutritionTarget {
     case analyze(receipeName:String,recipeIngredients:[String])
@@ -29,7 +28,7 @@ extension NutritionTarget: TargetType {
         }
     }
     
-    var method: MoyaMethod {
+    var method: Moya.Method {
         switch self {
         case .analyze:
             return .post
@@ -51,9 +50,8 @@ extension NutritionTarget: TargetType {
             ]
             var urlParams =  [String:Any]()
             urlParams = [
-                "app_id":"2fb62be8",
-                "app_key":"be91372375ea1cb5c76529e5b90a2a4a"
-                
+                "app_id":"a282d775",
+                "app_key":"24a83e8b5db2aa6ee85c893c7ae9c9e0"
             ]
             return .requestCompositeParameters(bodyParameters: parameters, bodyEncoding: JSONEncoding.default, urlParameters: urlParams)
         }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		190EA152D6D0DC424E4E3D22 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D661DC4B921B086BAF1E927 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework */; };
 		59FC7DD4862BDC343C9CCB3A /* Pods_Nutrition_AnalysisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9AF1A6EEF1EA18303ACB92 /* Pods_Nutrition_AnalysisTests.framework */; };
+		76A2292927733E820023F143 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2292827733E820023F143 /* LoadingView.swift */; };
 		76A72EC02771F750000A894B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EBF2771F750000A894B /* AppDelegate.swift */; };
 		76A72EC22771F750000A894B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72EC12771F750000A894B /* SceneDelegate.swift */; };
 		76A72EC72771F750000A894B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A72EC52771F750000A894B /* Main.storyboard */; };
@@ -20,6 +21,54 @@
 		76CECAF727731A7B00A0119F /* DetailsAnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECAF627731A7B00A0119F /* DetailsAnalyzeView.swift */; };
 		76CECAF927731AA900A0119F /* DetailsAnalyzeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CECAF827731AA900A0119F /* DetailsAnalyzeView.xib */; };
 		76CECAFC27731B7200A0119F /* NutritionTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECAFB27731B7200A0119F /* NutritionTarget.swift */; };
+		76CECAFE27731DC500A0119F /* NutritionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECAFD27731DC500A0119F /* NutritionService.swift */; };
+		76CECB0327731EA300A0119F /* NutritionAnalyzeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0227731EA300A0119F /* NutritionAnalyzeResponse.swift */; };
+		76CECB0527731F1C00A0119F /* TotalNutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0427731F1C00A0119F /* TotalNutrients.swift */; };
+		76CECB0727731F5700A0119F /* BaseModelDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0627731F5700A0119F /* BaseModelDouble.swift */; };
+		76CECB0927731F8000A0119F /* BaseModelInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0827731F8000A0119F /* BaseModelInt.swift */; };
+		76CECB0B27731FA700A0119F /* TotalDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0A27731FA700A0119F /* TotalDaily.swift */; };
+		76CECB0D27731FDA00A0119F /* TotalNutrientsKCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0C27731FDA00A0119F /* TotalNutrientsKCal.swift */; };
+		76CECB0F27731FFC00A0119F /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB0E27731FFC00A0119F /* IngredientModel.swift */; };
+		76CECB12277320F200A0119F /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB11277320F200A0119F /* NutritionViewController.swift */; };
+		76CECB142773213100A0119F /* HomePageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB132773213100A0119F /* HomePageState.swift */; };
+		76CECB17277322CF00A0119F /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB16277322CF00A0119F /* IngredientTableViewCell.swift */; };
+		76CECB192773230900A0119F /* IngredientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CECB182773230900A0119F /* IngredientTableViewCell.xib */; };
+		76CECB1C2773237C00A0119F /* NutritionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB1B2773237C00A0119F /* NutritionBuilder.swift */; };
+		76CECB1F277323C700A0119F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB1E277323C700A0119F /* BaseCoordinator.swift */; };
+		76CECB21277323EF00A0119F /* NutritionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB20277323EF00A0119F /* NutritionCoordinator.swift */; };
+		76CECB232773241D00A0119F /* NutritionDetailsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB222773241D00A0119F /* NutritionDetailsState.swift */; };
+		76CECB27277324D200A0119F /* NewRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB25277324D100A0119F /* NewRecipeViewController.swift */; };
+		76CECB28277324D200A0119F /* NewRecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CECB26277324D100A0119F /* NewRecipeViewController.xib */; };
+		76CECB2C277325A500A0119F /* NewIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB2A277325A500A0119F /* NewIngredientViewController.swift */; };
+		76CECB2D277325A500A0119F /* NewIngredientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CECB2B277325A500A0119F /* NewIngredientViewController.xib */; };
+		76CECB312773262200A0119F /* AnalyzeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB2F2773262200A0119F /* AnalyzeDetailsViewController.swift */; };
+		76CECB322773262200A0119F /* AnalyzeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CECB302773262200A0119F /* AnalyzeDetailsViewController.xib */; };
+		76CECB352773273200A0119F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB342773273200A0119F /* UIView+Extension.swift */; };
+		76CECB38277327E600A0119F /* NutritionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB37277327E600A0119F /* NutritionViewModel.swift */; };
+		76CECB3A277328B600A0119F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB39277328B600A0119F /* UIViewController+Extension.swift */; };
+		76CECB5727732A6100A0119F /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB3F27732A6000A0119F /* BlurLayer.swift */; };
+		76CECB5827732A6100A0119F /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4027732A6000A0119F /* CaptureQuality.swift */; };
+		76CECB5927732A6100A0119F /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4127732A6000A0119F /* PresentationController.swift */; };
+		76CECB5A27732A6100A0119F /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4227732A6000A0119F /* UIImage+Blur.swift */; };
+		76CECB5B27732A6100A0119F /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4327732A6000A0119F /* PopupDialogDefaultButtons.swift */; };
+		76CECB5C27732A6100A0119F /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4427732A6000A0119F /* UIImageView+Calculations.swift */; };
+		76CECB5D27732A6100A0119F /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4527732A6000A0119F /* PopupDialog+Keyboard.swift */; };
+		76CECB5E27732A6100A0119F /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4627732A6000A0119F /* UIView+Animations.swift */; };
+		76CECB5F27732A6100A0119F /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4727732A6000A0119F /* PopupDialogDefaultViewController.swift */; };
+		76CECB6027732A6100A0119F /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4827732A6000A0119F /* CGImage+Accelerate.swift */; };
+		76CECB6127732A6100A0119F /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4927732A6100A0119F /* PopupDialogContainerView.swift */; };
+		76CECB6227732A6100A0119F /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4A27732A6100A0119F /* PopupDialogButton.swift */; };
+		76CECB6327732A6100A0119F /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4B27732A6100A0119F /* TransitionAnimator.swift */; };
+		76CECB6427732A6100A0119F /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4C27732A6100A0119F /* PopupDialogDefaultView.swift */; };
+		76CECB6527732A6100A0119F /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4D27732A6100A0119F /* PopupDialog.swift */; };
+		76CECB6627732A6100A0119F /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4E27732A6100A0119F /* InteractiveTransition.swift */; };
+		76CECB6727732A6100A0119F /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB4F27732A6100A0119F /* CGContext+CGImage.swift */; };
+		76CECB6827732A6100A0119F /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5027732A6100A0119F /* PresentationManager.swift */; };
+		76CECB6927732A6100A0119F /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5127732A6100A0119F /* TrackingMode.swift */; };
+		76CECB6A27732A6100A0119F /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5227732A6100A0119F /* TransitionAnimations.swift */; };
+		76CECB6B27732A6100A0119F /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5327732A6100A0119F /* UIViewController+Visibility.swift */; };
+		76CECB6C27732A6100A0119F /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5427732A6100A0119F /* PopupDialogOverlayView.swift */; };
+		76CECB6D27732A6100A0119F /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CECB5627732A6100A0119F /* DynamicBlurView.swift */; };
 		ED47ADB0C8D97091ED50E16B /* Pods_Nutrition_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861662B4A4D0B044579164E3 /* Pods_Nutrition_Analysis.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +94,7 @@
 		5D661DC4B921B086BAF1E927 /* Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analysis_Nutrition_AnalysisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601A2AA4B4BE45E5B6B19D31 /* Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis-Nutrition AnalysisUITests/Pods-Nutrition Analysis-Nutrition AnalysisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		683D0841A87C03FE505244D8 /* Pods-Nutrition AnalysisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition AnalysisTests.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition AnalysisTests/Pods-Nutrition AnalysisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76A2292827733E820023F143 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		76A72EBC2771F750000A894B /* Nutrition Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutrition Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A72EBF2771F750000A894B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A72EC12771F750000A894B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +110,55 @@
 		76CECAF627731A7B00A0119F /* DetailsAnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAnalyzeView.swift; sourceTree = "<group>"; };
 		76CECAF827731AA900A0119F /* DetailsAnalyzeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsAnalyzeView.xib; sourceTree = "<group>"; };
 		76CECAFB27731B7200A0119F /* NutritionTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTarget.swift; sourceTree = "<group>"; };
+		76CECAFD27731DC500A0119F /* NutritionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionService.swift; sourceTree = "<group>"; };
+		76CECB0227731EA300A0119F /* NutritionAnalyzeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAnalyzeResponse.swift; sourceTree = "<group>"; };
+		76CECB0427731F1C00A0119F /* TotalNutrients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalNutrients.swift; sourceTree = "<group>"; };
+		76CECB0627731F5700A0119F /* BaseModelDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelDouble.swift; sourceTree = "<group>"; };
+		76CECB0827731F8000A0119F /* BaseModelInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelInt.swift; sourceTree = "<group>"; };
+		76CECB0A27731FA700A0119F /* TotalDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDaily.swift; sourceTree = "<group>"; };
+		76CECB0C27731FDA00A0119F /* TotalNutrientsKCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalNutrientsKCal.swift; sourceTree = "<group>"; };
+		76CECB0E27731FFC00A0119F /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
+		76CECB11277320F200A0119F /* NutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
+		76CECB132773213100A0119F /* HomePageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageState.swift; sourceTree = "<group>"; };
+		76CECB16277322CF00A0119F /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		76CECB182773230900A0119F /* IngredientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientTableViewCell.xib; sourceTree = "<group>"; };
+		76CECB1B2773237C00A0119F /* NutritionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionBuilder.swift; sourceTree = "<group>"; };
+		76CECB1E277323C700A0119F /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		76CECB20277323EF00A0119F /* NutritionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCoordinator.swift; sourceTree = "<group>"; };
+		76CECB222773241D00A0119F /* NutritionDetailsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailsState.swift; sourceTree = "<group>"; };
+		76CECB25277324D100A0119F /* NewRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeViewController.swift; sourceTree = "<group>"; };
+		76CECB26277324D100A0119F /* NewRecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewRecipeViewController.xib; sourceTree = "<group>"; };
+		76CECB2A277325A500A0119F /* NewIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIngredientViewController.swift; sourceTree = "<group>"; };
+		76CECB2B277325A500A0119F /* NewIngredientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIngredientViewController.xib; sourceTree = "<group>"; };
+		76CECB2F2773262200A0119F /* AnalyzeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeDetailsViewController.swift; sourceTree = "<group>"; };
+		76CECB302773262200A0119F /* AnalyzeDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnalyzeDetailsViewController.xib; sourceTree = "<group>"; };
+		76CECB342773273200A0119F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		76CECB37277327E600A0119F /* NutritionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewModel.swift; sourceTree = "<group>"; };
+		76CECB39277328B600A0119F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		76CECB3F27732A6000A0119F /* BlurLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurLayer.swift; sourceTree = "<group>"; };
+		76CECB4027732A6000A0119F /* CaptureQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureQuality.swift; sourceTree = "<group>"; };
+		76CECB4127732A6000A0119F /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		76CECB4227732A6000A0119F /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		76CECB4327732A6000A0119F /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		76CECB4427732A6000A0119F /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		76CECB4527732A6000A0119F /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		76CECB4627732A6000A0119F /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		76CECB4727732A6000A0119F /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		76CECB4827732A6000A0119F /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		76CECB4927732A6100A0119F /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		76CECB4A27732A6100A0119F /* PopupDialogButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogButton.swift; sourceTree = "<group>"; };
+		76CECB4B27732A6100A0119F /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		76CECB4C27732A6100A0119F /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		76CECB4D27732A6100A0119F /* PopupDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialog.swift; sourceTree = "<group>"; };
+		76CECB4E27732A6100A0119F /* InteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransition.swift; sourceTree = "<group>"; };
+		76CECB4F27732A6100A0119F /* CGContext+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		76CECB5027732A6100A0119F /* PresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		76CECB5127732A6100A0119F /* TrackingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
+		76CECB5227732A6100A0119F /* TransitionAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimations.swift; sourceTree = "<group>"; };
+		76CECB5327732A6100A0119F /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		76CECB5427732A6100A0119F /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		76CECB5527732A6100A0119F /* DynamicBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicBlurView.h; sourceTree = "<group>"; };
+		76CECB5627732A6100A0119F /* DynamicBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicBlurView.swift; sourceTree = "<group>"; };
 		861662B4A4D0B044579164E3 /* Pods_Nutrition_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A360DC21BF160081C3821E /* Pods-Nutrition Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis.release.xcconfig"; sourceTree = "<group>"; };
 		CC9AF1A6EEF1EA18303ACB92 /* Pods_Nutrition_AnalysisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_AnalysisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +219,11 @@
 		76A72EBE2771F750000A894B /* Nutrition Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				76CECB3E27732A0D00A0119F /* Popup */,
+				76CECB33277326D700A0119F /* Extensions  */,
 				76CECAF527731A2900A0119F /* Views */,
 				76CECAFA27731B4700A0119F /* Network */,
+				76CECAFF27731E4300A0119F /* Modules */,
 				76A72EBF2771F750000A894B /* AppDelegate.swift */,
 				76A72EC12771F750000A894B /* SceneDelegate.swift */,
 				76A72EC52771F750000A894B /* Main.storyboard */,
@@ -162,8 +264,159 @@
 			isa = PBXGroup;
 			children = (
 				76CECAFB27731B7200A0119F /* NutritionTarget.swift */,
+				76CECAFD27731DC500A0119F /* NutritionService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		76CECAFF27731E4300A0119F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB2E2773260100A0119F /* AnalyzeDetails */,
+				76CECB292773258C00A0119F /* NewIngredient */,
+				76CECB242773248100A0119F /* NewRecipe */,
+				76CECB0027731E7D00A0119F /* Nutrition */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		76CECB0027731E7D00A0119F /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB36277327D400A0119F /* ViewModel */,
+				76CECB1D277323A400A0119F /* Coordinator */,
+				76CECB1A2773236500A0119F /* Builder */,
+				76CECB15277322B100A0119F /* Cells */,
+				76CECB10277320C200A0119F /* View */,
+				76CECB0127731E8D00A0119F /* Model */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		76CECB0127731E8D00A0119F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB0627731F5700A0119F /* BaseModelDouble.swift */,
+				76CECB0827731F8000A0119F /* BaseModelInt.swift */,
+				76CECB0227731EA300A0119F /* NutritionAnalyzeResponse.swift */,
+				76CECB0427731F1C00A0119F /* TotalNutrients.swift */,
+				76CECB0A27731FA700A0119F /* TotalDaily.swift */,
+				76CECB0C27731FDA00A0119F /* TotalNutrientsKCal.swift */,
+				76CECB0E27731FFC00A0119F /* IngredientModel.swift */,
+				76CECB132773213100A0119F /* HomePageState.swift */,
+				76CECB222773241D00A0119F /* NutritionDetailsState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76CECB10277320C200A0119F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB11277320F200A0119F /* NutritionViewController.swift */,
+				76A2292827733E820023F143 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76CECB15277322B100A0119F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB16277322CF00A0119F /* IngredientTableViewCell.swift */,
+				76CECB182773230900A0119F /* IngredientTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		76CECB1A2773236500A0119F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB1B2773237C00A0119F /* NutritionBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		76CECB1D277323A400A0119F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB1E277323C700A0119F /* BaseCoordinator.swift */,
+				76CECB20277323EF00A0119F /* NutritionCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		76CECB242773248100A0119F /* NewRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB25277324D100A0119F /* NewRecipeViewController.swift */,
+				76CECB26277324D100A0119F /* NewRecipeViewController.xib */,
+			);
+			path = NewRecipe;
+			sourceTree = "<group>";
+		};
+		76CECB292773258C00A0119F /* NewIngredient */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB2A277325A500A0119F /* NewIngredientViewController.swift */,
+				76CECB2B277325A500A0119F /* NewIngredientViewController.xib */,
+			);
+			path = NewIngredient;
+			sourceTree = "<group>";
+		};
+		76CECB2E2773260100A0119F /* AnalyzeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB2F2773262200A0119F /* AnalyzeDetailsViewController.swift */,
+				76CECB302773262200A0119F /* AnalyzeDetailsViewController.xib */,
+			);
+			path = AnalyzeDetails;
+			sourceTree = "<group>";
+		};
+		76CECB33277326D700A0119F /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB342773273200A0119F /* UIView+Extension.swift */,
+				76CECB39277328B600A0119F /* UIViewController+Extension.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		76CECB36277327D400A0119F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB37277327E600A0119F /* NutritionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		76CECB3E27732A0D00A0119F /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				76CECB3F27732A6000A0119F /* BlurLayer.swift */,
+				76CECB4027732A6000A0119F /* CaptureQuality.swift */,
+				76CECB4F27732A6100A0119F /* CGContext+CGImage.swift */,
+				76CECB4827732A6000A0119F /* CGImage+Accelerate.swift */,
+				76CECB5527732A6100A0119F /* DynamicBlurView.h */,
+				76CECB5627732A6100A0119F /* DynamicBlurView.swift */,
+				76CECB4E27732A6100A0119F /* InteractiveTransition.swift */,
+				76CECB4D27732A6100A0119F /* PopupDialog.swift */,
+				76CECB4527732A6000A0119F /* PopupDialog+Keyboard.swift */,
+				76CECB4A27732A6100A0119F /* PopupDialogButton.swift */,
+				76CECB4927732A6100A0119F /* PopupDialogContainerView.swift */,
+				76CECB4327732A6000A0119F /* PopupDialogDefaultButtons.swift */,
+				76CECB4C27732A6100A0119F /* PopupDialogDefaultView.swift */,
+				76CECB4727732A6000A0119F /* PopupDialogDefaultViewController.swift */,
+				76CECB5427732A6100A0119F /* PopupDialogOverlayView.swift */,
+				76CECB4127732A6000A0119F /* PresentationController.swift */,
+				76CECB5027732A6100A0119F /* PresentationManager.swift */,
+				76CECB5127732A6100A0119F /* TrackingMode.swift */,
+				76CECB5227732A6100A0119F /* TransitionAnimations.swift */,
+				76CECB4B27732A6100A0119F /* TransitionAnimator.swift */,
+				76CECB4227732A6000A0119F /* UIImage+Blur.swift */,
+				76CECB4427732A6000A0119F /* UIImageView+Calculations.swift */,
+				76CECB4627732A6000A0119F /* UIView+Animations.swift */,
+				76CECB5327732A6100A0119F /* UIViewController+Visibility.swift */,
+			);
+			path = Popup;
 			sourceTree = "<group>";
 		};
 		B942B69F264B25BA27212B08 /* Pods */ = {
@@ -298,10 +551,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CECB192773230900A0119F /* IngredientTableViewCell.xib in Resources */,
+				76CECB2D277325A500A0119F /* NewIngredientViewController.xib in Resources */,
 				76CECAF927731AA900A0119F /* DetailsAnalyzeView.xib in Resources */,
 				76A72ECC2771F751000A894B /* LaunchScreen.storyboard in Resources */,
+				76CECB322773262200A0119F /* AnalyzeDetailsViewController.xib in Resources */,
 				76A72EC92771F751000A894B /* Assets.xcassets in Resources */,
 				76A72EC72771F750000A894B /* Main.storyboard in Resources */,
+				76CECB28277324D200A0119F /* NewRecipeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +686,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CECB0927731F8000A0119F /* BaseModelInt.swift in Sources */,
 				76A72EC02771F750000A894B /* AppDelegate.swift in Sources */,
+				76CECB2C277325A500A0119F /* NewIngredientViewController.swift in Sources */,
+				76CECB6727732A6100A0119F /* CGContext+CGImage.swift in Sources */,
+				76CECB5F27732A6100A0119F /* PopupDialogDefaultViewController.swift in Sources */,
+				76CECB6927732A6100A0119F /* TrackingMode.swift in Sources */,
+				76CECB6627732A6100A0119F /* InteractiveTransition.swift in Sources */,
+				76CECB38277327E600A0119F /* NutritionViewModel.swift in Sources */,
+				76CECB5C27732A6100A0119F /* UIImageView+Calculations.swift in Sources */,
+				76CECB232773241D00A0119F /* NutritionDetailsState.swift in Sources */,
+				76CECB6A27732A6100A0119F /* TransitionAnimations.swift in Sources */,
+				76CECB0F27731FFC00A0119F /* IngredientModel.swift in Sources */,
+				76A2292927733E820023F143 /* LoadingView.swift in Sources */,
+				76CECB6527732A6100A0119F /* PopupDialog.swift in Sources */,
+				76CECB0527731F1C00A0119F /* TotalNutrients.swift in Sources */,
+				76CECB1C2773237C00A0119F /* NutritionBuilder.swift in Sources */,
+				76CECB5A27732A6100A0119F /* UIImage+Blur.swift in Sources */,
+				76CECB6B27732A6100A0119F /* UIViewController+Visibility.swift in Sources */,
+				76CECB6127732A6100A0119F /* PopupDialogContainerView.swift in Sources */,
 				76A72EC22771F750000A894B /* SceneDelegate.swift in Sources */,
+				76CECB6427732A6100A0119F /* PopupDialogDefaultView.swift in Sources */,
+				76CECB1F277323C700A0119F /* BaseCoordinator.swift in Sources */,
+				76CECB6D27732A6100A0119F /* DynamicBlurView.swift in Sources */,
+				76CECB17277322CF00A0119F /* IngredientTableViewCell.swift in Sources */,
+				76CECB352773273200A0119F /* UIView+Extension.swift in Sources */,
+				76CECB6227732A6100A0119F /* PopupDialogButton.swift in Sources */,
+				76CECB27277324D200A0119F /* NewRecipeViewController.swift in Sources */,
+				76CECB3A277328B600A0119F /* UIViewController+Extension.swift in Sources */,
+				76CECB6327732A6100A0119F /* TransitionAnimator.swift in Sources */,
+				76CECB0B27731FA700A0119F /* TotalDaily.swift in Sources */,
 				76CECAF727731A7B00A0119F /* DetailsAnalyzeView.swift in Sources */,
 				76CECAFC27731B7200A0119F /* NutritionTarget.swift in Sources */,
+				76CECB5827732A6100A0119F /* CaptureQuality.swift in Sources */,
+				76CECB312773262200A0119F /* AnalyzeDetailsViewController.swift in Sources */,
+				76CECB5D27732A6100A0119F /* PopupDialog+Keyboard.swift in Sources */,
+				76CECB21277323EF00A0119F /* NutritionCoordinator.swift in Sources */,
+				76CECB0D27731FDA00A0119F /* TotalNutrientsKCal.swift in Sources */,
+				76CECB0327731EA300A0119F /* NutritionAnalyzeResponse.swift in Sources */,
+				76CECAFE27731DC500A0119F /* NutritionService.swift in Sources */,
+				76CECB5927732A6100A0119F /* PresentationController.swift in Sources */,
+				76CECB5727732A6100A0119F /* BlurLayer.swift in Sources */,
+				76CECB5B27732A6100A0119F /* PopupDialogDefaultButtons.swift in Sources */,
+				76CECB6827732A6100A0119F /* PresentationManager.swift in Sources */,
+				76CECB6C27732A6100A0119F /* PopupDialogOverlayView.swift in Sources */,
+				76CECB6027732A6100A0119F /* CGImage+Accelerate.swift in Sources */,
+				76CECB0727731F5700A0119F /* BaseModelDouble.swift in Sources */,
+				76CECB12277320F200A0119F /* NutritionViewController.swift in Sources */,
+				76CECB142773213100A0119F /* HomePageState.swift in Sources */,
+				76CECB5E27732A6100A0119F /* UIView+Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
